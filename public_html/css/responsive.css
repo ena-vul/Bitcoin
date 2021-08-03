@@ -1,0 +1,110 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 8, 2020, 2:28:30 PM
+    Author     : frontend
+*/
+
+
+/*
+
+> 0        ''      NO NAME
+
+> 576px    SM    Small Devices
+
+> 768px    MD    Medium Devices
+
+> 992      LG    Large Devices
+
+> 1200     XL    Extra Large
+
+> 1400     XXL   Extra Extra Large
+
+*/
+
+@media(min-width:576px){
+  .footer-menu .footer-menu-list li a{
+    margin-left: 20px;
+
+}
+
+.footer-menu .footer-menu-list li span{
+    margin-left: 20px;
+}
+  
+}
+
+@media(min-width:768px){
+  header .navbar .navbar-nav .nav-link.login{
+    margin-bottom: 0px;
+}
+
+    header .navbar .btn-register{
+    margin-left: 28px;
+    margin-right: 0;
+}
+
+.slider-section .owl-theme .owl-dots .owl-dot span {
+      margin-top: -80px;
+}
+
+.main-slider .btn-slider{
+    margin-bottom: 0px;
+    padding: 20px 50px;
+}
+
+.benefit-section{
+    margin-top: -8%;
+}
+
+.pricing-section .pricing-item{
+    margin-bottom: 116px;
+}
+
+.gallery-section .gallery-item{
+    flex: 0 0 20%
+}
+  
+}
+
+@media(min-width:992px){
+    header .navbar .navbar-nav .nav-link{
+        margin-left: 38px;
+    }
+    
+    .slider-section .owl-theme .owl-dots .owl-dot span {
+      margin-top: -196px;
+}
+
+.benefit-section{
+    margin-top: -15%;
+    max-width: 95%;
+}
+    
+    .benefit-content{
+        padding-top: 50px;
+   padding-bottom: 88px;
+}
+
+.benefit-content .section-subtitle:after{
+    margin-left: 0;
+    margin-right: 0;
+}
+  
+}
+
+@media(min-width:1200px){
+  .benefit-section{
+    margin-top: -8%;
+    max-width: 90%;
+}
+  
+}
+
+@media(min-width:1400px){
+  
+  
+}
